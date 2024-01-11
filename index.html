@@ -71,11 +71,12 @@
             <section id="titulo-ingressos">
                 <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
             </section>
-            <div class="container">
-                <img src="imagens/quinta.svg">
-                <img src="imagens/sexta.svg">
-                <img src="imagens/sabado.svg">
-                <img src="imagens/domingo.svg">
+            <div id="cards">
+                <!--class="container"-->
+                <img src="imagens/quinta.svg" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" alt="" >
+                <img src="imagens/sexta.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
+                <img src="imagens/sabado.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
+                <img src="imagens/domingo.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
                 
             </div>
         </div>
@@ -83,9 +84,8 @@
        
     </div>
 
-    
-
     <script src="script.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>
